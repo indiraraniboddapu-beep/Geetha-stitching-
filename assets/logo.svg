@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 220" role="img" aria-labelledby="title desc">
+  <title id="title">Geetha Stitching Logo</title>
+  <desc id="desc">Luxurious boutique logo with crown, needle and thread motif in gold and maroon.</desc>
+  <defs>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f6e27a"/>
+      <stop offset="45%" stop-color="#d4af37"/>
+      <stop offset="100%" stop-color="#b8860b"/>
+    </linearGradient>
+    <linearGradient id="maroonGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#7a1026"/>
+      <stop offset="100%" stop-color="#4a0012"/>
+    </linearGradient>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2" flood-color="#4a0012" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+
+  <!-- Crown -->
+  <g transform="translate(260,34)" filter="url(#softShadow)">
+    <path d="M-52 26 L-40 -2 L-18 14 L0 -18 L18 14 L40 -2 L52 26 Z" fill="url(#goldGrad)" stroke="#b8860b" stroke-width="1.5" stroke-linejoin="round"/>
+    <rect x="-52" y="26" width="104" height="10" rx="5" fill="url(#goldGrad)" stroke="#b8860b" stroke-width="1.2"/>
+    <circle cx="-40" cy="-2" r="4" fill="#fff7d6"/>
+    <circle cx="0" cy="-18" r="4.5" fill="#fff7d6"/>
+    <circle cx="40" cy="-2" r="4" fill="#fff7d6"/>
+  </g>
+
+  <!-- Needle and thread emblem -->
+  <g transform="translate(260,118)" filter="url(#softShadow)">
+    <circle cx="0" cy="0" r="46" fill="none" stroke="url(#goldGrad)" stroke-width="2.2"/>
+    <circle cx="0" cy="0" r="39" fill="#fffaf0" fill-opacity="0.02" stroke="#d4af37" stroke-opacity="0.35" stroke-width="1"/>
+    <!-- Thread -->
+    <path d="M-70 -18 C -40 -40, -10 -38, 0 -18 C 10 2, 30 10, 48 -2 C 62 -12, 70 -28, 62 -38" fill="none" stroke="url(#goldGrad)" stroke-width="3" stroke-linecap="round"/>
+    <!-- Needle -->
+    <g transform="rotate(-28)">
+      <rect x="-2.2" y="-44" width="4.4" height="78" rx="2.2" fill="url(#maroonGrad)" stroke="#d4af37" stroke-width="0.8"/>
+      <ellipse cx="0" cy="-31" rx="2.4" ry="4.2" fill="#fffaf0" stroke="#d4af37" stroke-width="0.8"/>
+      <path d="M0 34 L-4 44 L4 44 Z" fill="url(#maroonGrad)" stroke="#d4af37" stroke-width="0.8" stroke-linejoin="round"/>
+    </g>
+    <!-- Small sparkles -->
+    <path d="M-58 18 l3 7 7 3 -7 3 -3 7 -3-7 -7-3 7-3z" fill="url(#goldGrad)" opacity="0.9"/>
+    <path d="M58 16 l2.5 5.5 5.5 2.5 -5.5 2.5 -2.5 5.5 -2.5-5.5 -5.5-2.5 5.5-2.5z" fill="url(#goldGrad)" opacity="0.85"/>
+  </g>
+
+  <!-- Brand name -->
+  <g text-anchor="middle" filter="url(#softShadow)">
+    <text x="260" y="182" font-family="'Playfair Display', Georgia, 'Times New Roman', serif" font-size="46" font-weight="700" fill="url(#maroonGrad)">Geetha</text>
+    <text x="260" y="208" font-family="'Montserrat', Arial, sans-serif" font-size="20" font-weight="600" letter-spacing="6" fill="#b8860b">STITCHING</text>
+  </g>
+</svg>
