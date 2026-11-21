@@ -198,7 +198,8 @@ textarea {
 .brand-text strong {
   font-family: "Playfair Display", Georgia, serif;
   color: var(--maroon-dark);
-  font-size: 1.35rem;
+  font-size: clamp(1.35rem, 2.5vw, 1.75rem);
+  line-height: 1.1;
 }
 
 .brand-text span {
